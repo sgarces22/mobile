@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<!-- <link rel="stylesheet" href="ccs/jquery.mobile.icons-1.4.5.min.css"> -->
+	<link rel="stylesheet" href="ccs/temac.min.css">
+	<link rel="stylesheet" href="ccs/jquery.mobile.icons.min.css">
+	<link rel="stylesheet" href="ccs/jquery.mobile.structure-1.4.5.min.css">
+	<link rel="stylesheet" href="ccs/jquery.mobile-1.4.5.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title>Web APP</title>
+</head>
+<body>
+
+	<!-- Pagina inicio -->
+	<div id="inicio" data-theme="c" data-role="page" data-tittle="Inicio">
+		<div data-role="header">
+			<h1>Mi primera APP Interfaz</h1>
+			<a class="ui-btn-right" href="#panel" data-role="button">Menu</a>
+		</div>
+		<div data-role="content">
+
+	<!-- panel de control -->
+	<div data-role="panel" id="panel" data-display="overlay" data-position="right">
+		<h3>Menu</h3>
+		<ul data-role="listview">
+			<li><a href="#pagina1">pagina1</a></li>
+			<li><a href="#">pagina2</a></li>
+			<li><a href="#">pagina3</a></li>
+			<li><a href="#">pagina4</a></li>
+			<li><a href="#">pagina5</a></li>
+		</ul>
+		<a href="#" data-rel="close" data-role="button">Cerrar</a>
+	</div>
+	<!-- fin panel de control -->
+
+			<p>Contenido APP</p>
+			<hr>
+			<a data-role="button" href="#contacto" data-rel="dialog">Contacto</a>
+				<div width="100%" style="text-align: center;">
+			<img class="center-block" src="ccs/images/fuerza.jpg">
+			</div>
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a data-transition="flip" data-icon="star" href="#mision">Mision</a></li>
+					<li><a data-transition="pop" data-icon="plus" href="#vision">Vision</a></li>
+					<li><a data-transition="salideup" data-icon="grid" href="#servicios">Servicios</a></li>
+					<li><a data-transition="slidedown" data-icon="home" href="#inicio">home</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- Fin pagina inicio -->
+
+	<!-- Contacto Inicio -->
+	<div data-role="page" id="contacto" data-tittle="contacto">
+
+		<div data-role="header">
+			<h1>Contacto</h1>
+		</div>
+		<div data-role="content">
+			<form action="">
+				Nombre:
+				<input type="text">
+				Correo
+				<input type="text">
+				Comentario
+				<textarea cols="30" rows="10"></textarea>
+				<input type="submit" value="Enviar">
+			</form>
+		</div>
+		<div data-role="footer">
+			<p>cel. 3188989866, calle 27 6bn 50</p>
+		</div>
+	</div>
+	<!-- Contacto Final -->
+
+	<!-- Mision inicio -->
+	<div id="mision" data-theme="c" data-role="page" data-tittle="mision">
+			<div data-role="header">
+				<h1>Mision</h1>
+			</div>
+			<div data-role="content">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, deserunt distinctio ea, voluptatem impedit hic, praesentium est iure labore incidunt unde non nobis odit molestiae pariatur quaerat! Officia, minima, quae.
+			</div>
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a data-transition="flip" data-icon="star" href="#mision">Mision</a></li>
+						<li><a data-transition="pop" data-icon="plus" href="#vision">Vision</a></li>
+						<li><a data-transition="salideup" data-icon="grid" href="#servicios">Servicios</a></li>
+						<li><a data-transition="slidedown" data-icon="home" href="#inicio">home</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	<!-- Mision final -->
+
+	<!-- Vision inicio -->
+	<div id="vision" data-theme="c" data-role="page" data-tittle="vision">
+			<div data-role="header">
+				<h1>Vision</h1>
+			</div>
+			<div data-role="content">
+				<ul data-role="list-view">
+					<li><a href="#1">p1</a></li>
+					<li><a href="#2">p2</a></li>
+					<li><a href="#3">p3</a></li>
+					<li><a href="#4">p4</a></li>
+				</ul>
+			</div>
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a data-transition="flip" data-icon="star" href="#mision">Mision</a></li>
+						<li><a data-transition="pop" data-icon="plus" href="#vision">Vision</a></li>
+						<li><a data-transition="salideup" data-icon="grid" href="#servicios">Servicios</a></li>
+						<li><a data-transition="slidedown" data-icon="home" href="#inicio">home</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	<!-- Vision Final -->
+
+	<!-- Servicios Inicio -->
+	<div id="servicios" data-theme="c" data-role="page" data-tittle="servicios">
+			<div data-role="header">
+				<h1>Servicios</h1>
+			</div>
+			<div data-role="content">
+				<div data-role="collapsible">
+					<h3>Servicios</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, odit placeat, nobis soluta eligendi illo eveniet modi officia tenetur minima distinctio optio quas dolorum numquam nulla sed sunt, error recusandae!</p>
+				</div>
+			</div>
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a data-transition="flip" data-icon="star" href="#mision">Mision</a></li>
+						<li><a data-transition="pop" data-icon="plus" href="#vision">Vision</a></li>
+						<li><a data-transition="salideup" data-icon="grid" href="#servicios">Servicios</a></li>
+						<li><a data-transition="slidedown" data-icon="home" href="#inicio">home</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	<!-- Servicios Final -->
+
+	<!-- Pagina 1 -->
+	<div id="pagina1" data-theme="c" data-role="page" data-tittle="pagina1">
+			<div data-role="header">
+				<h1>Pagina 1</h1>
+				<a class="ui-btn-right" href="#panel" data-role="button">Menu</a>
+			</div>
+			<div data-role="content">
+
+	<!-- panel de control -->
+	<div data-role="panel" id="panel" data-display="overlay" data-position="right">
+		<h3>Menu</h3>
+		<ul data-role="listview">
+			<li><a href="#pagina1">pagina1</a></li>
+			<li><a href="#">pagina2</a></li>
+			<li><a href="#">pagina3</a></li>
+			<li><a href="#">pagina4</a></li>
+			<li><a href="#">pagina5</a></li>
+		</ul>
+		<a href="#" data-rel="close" data-role="button">Cerrar</a>
+	</div>
+	<!-- fin panel de control -->
+		
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aspernatur accusantium accusamus porro beatae natus excepturi tempora ipsum dolores tenetur nisi, amet error, optio pariatur asperiores fugit sed soluta odit.</p>
+				<hr>
+				<a data-role="button" href="#contacto" data-rel="dialog">Contacto</a>
+				<div width="100%" style="text-align: center;">
+					<img src="ccs/images/fuerza1.jpg">
+				</div>
+			</div>
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a data-transition="flip" data-icon="star" href="#mision">Mision</a></li>
+						<li><a data-transition="pop" data-icon="plus" href="#vision">Vision</a></li>
+						<li><a data-transition="salideup" data-icon="grid" href="#servicios">Servicios</a></li>
+						<li><a data-transition="slidedown" data-icon="home" href="#inicio">home</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- Fin Pagina 1 -->
+
+	<!-- Llamado los scripts -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+	<!-- Finalizando los scripts -->
+
+</body>
+</html>
